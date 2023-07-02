@@ -8,8 +8,7 @@ Application routes
 
 Auth (User)
 
-- Route: https://cow-hut-with-auth.onrender.com/api/auth/login (POST)
-- Route: https://cow-hut-with-auth.onrender.com/api/v1/auth/signup (POST)
+- Route: https://cow-hut-with-auth.onrender.com/api/v1/auth/user-login (POST)
 - Route: https://cow-hut-with-auth.onrender.com/api/v1/auth/refresh-token (POST)
 
 Auth (Admin)
@@ -41,7 +40,7 @@ Orders
 
 Admin
 
--Route: https://cow-hut-with-auth.onrender.com/api/v1/admins/create-admin (POST)
+- Route: https://cow-hut-with-auth.onrender.com/api/v1/admins/create-admin (POST)
 
 My Profile
 
