@@ -4,7 +4,7 @@ import auth from "../../middlewares/auth";
 import { ENUM_USER_ROLE } from "../../../enums/user";
 const router = express.Router();
 
-router.post("/create", auth(ENUM_USER_ROLE.SELLER), CowControllers.createCow);
+router.post("/", auth(ENUM_USER_ROLE.SELLER), CowControllers.createCow);
 
 router.patch("/:id", auth(ENUM_USER_ROLE.SELLER), CowControllers.updateCow);
 

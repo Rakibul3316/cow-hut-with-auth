@@ -8,7 +8,7 @@ Application routes
 
 Auth (User)
 
-- Route: https://cow-hut-with-auth.onrender.com/api/v1/auth/user-login (POST)
+- Route: https://cow-hut-with-auth.onrender.com/api/v1/auth/login (POST)
 - Route: https://cow-hut-with-auth.onrender.com/api/v1/auth/refresh-token (POST)
 
 Auth (Admin)

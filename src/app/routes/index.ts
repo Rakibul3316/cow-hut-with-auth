@@ -12,7 +12,7 @@ const moduleRoutes = [
     route: UserRoutes,
   },
   {
-    path: "/cow",
+    path: "/cows",
     route: CowRoutes,
   },
   {
